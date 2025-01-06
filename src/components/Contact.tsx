@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Building2 } from "lucide-react";
+import { Building2, Mail } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -29,17 +29,6 @@ export const Contact = () => {
                 <h3 className="font-semibold text-lg mb-2">Компания</h3>
                 <p className="text-rich/80">
                   Общество с ограниченной ответственностью "ИКОРНЫЙ" (ООО "ИКОРНЫЙ")
-                </p>
-              </div>
-            </div>
-            
-            <div className="flex items-start space-x-4">
-              <MapPin className="text-primary w-6 h-6 mt-1" />
-              <div>
-                <h3 className="font-semibold text-lg mb-2">Адрес</h3>
-                <p className="text-rich/80">
-                  <strong>Юридический адрес:</strong><br />
-                  117393, г.Москва, ул.Гарибальди, д.24, к. 2, помещ. 1/2
                 </p>
               </div>
             </div>
