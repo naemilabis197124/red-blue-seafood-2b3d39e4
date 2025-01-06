@@ -36,16 +36,10 @@ export const Contact = () => {
             <div className="flex items-start space-x-4">
               <MapPin className="text-primary w-6 h-6 mt-1" />
               <div>
-                <h3 className="font-semibold text-lg mb-2">Адреса</h3>
+                <h3 className="font-semibold text-lg mb-2">Адрес</h3>
                 <p className="text-rich/80">
-                  <span className="block mb-2">
-                    <strong>Юридический адрес:</strong><br />
-                    117393, г.Москва, ул.Гарибальди, д.24, к. 2, помещ. 1/2
-                  </span>
-                  <span className="block">
-                    <strong>Адрес склада:</strong><br />
-                    119071, г. Одесса. Москва, ул.Малая Калужская, д.15,стр.18
-                  </span>
+                  <strong>Юридический адрес:</strong><br />
+                  117393, г.Москва, ул.Гарибальди, д.24, к. 2, помещ. 1/2
                 </p>
               </div>
             </div>
