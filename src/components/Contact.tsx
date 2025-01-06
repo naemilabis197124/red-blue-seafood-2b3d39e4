@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, Building2 } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -24,28 +24,41 @@ export const Contact = () => {
             className="space-y-6"
           >
             <div className="flex items-start space-x-4">
-              <MapPin className="text-primary w-6 h-6 mt-1" />
+              <Building2 className="text-primary w-6 h-6 mt-1" />
               <div>
-                <h3 className="font-semibold text-lg mb-2">Адрес</h3>
+                <h3 className="font-semibold text-lg mb-2">Компания</h3>
                 <p className="text-rich/80">
-                  117393, г.Москва, ул.Гарибальди, д.24, к. 2, помещ. 1/2
+                  Общество с ограниченной ответственностью "ИКОРНЫЙ" (ООО "ИКОРНЫЙ")
                 </p>
               </div>
             </div>
             
             <div className="flex items-start space-x-4">
-              <Phone className="text-primary w-6 h-6 mt-1" />
+              <MapPin className="text-primary w-6 h-6 mt-1" />
               <div>
-                <h3 className="font-semibold text-lg mb-2">Телефон</h3>
-                <p className="text-rich/80">+7 (XXX) XXX-XX-XX</p>
+                <h3 className="font-semibold text-lg mb-2">Адреса</h3>
+                <p className="text-rich/80">
+                  <span className="block mb-2">
+                    <strong>Юридический адрес:</strong><br />
+                    117393, г.Москва, ул.Гарибальди, д.24, к. 2, помещ. 1/2
+                  </span>
+                  <span className="block">
+                    <strong>Адрес склада:</strong><br />
+                    119071, г. Одесса. Москва, ул.Малая Калужская, д.15,стр.18
+                  </span>
+                </p>
               </div>
             </div>
             
             <div className="flex items-start space-x-4">
               <Mail className="text-primary w-6 h-6 mt-1" />
               <div>
-                <h3 className="font-semibold text-lg mb-2">Email</h3>
-                <p className="text-rich/80">info@ikorny.ru</p>
+                <h3 className="font-semibold text-lg mb-2">Реквизиты</h3>
+                <p className="text-rich/80">
+                  ИНН: 773 334 06 42<br />
+                  КПП: 772 801 001<br />
+                  ОГРН: 119 774 632 20 36
+                </p>
               </div>
             </div>
           </motion.div>
